@@ -1,5 +1,23 @@
 .navheader{
     margin: 0;
-    height: 5%;
-    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    background-color: #323641;
+}
+
+.logo{
+    height: 40px;
+    margin: 10px;
+    align-self: center;
+}
+
+.links a:first-child{
+    padding-left: 24%;
+}
+
+.links a{
+    font-family: cousineregular;
+    color: #ffffff;
+    margin: 8%
 }

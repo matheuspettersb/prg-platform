@@ -7,12 +7,15 @@ import NavHeader from './components/nav-header/nav-header';
 function App() {
   return (
     <div className="App">
-      <>
-        <NavHeader/>
-        <Routes>
-          <Route path='/' element={<Home/>} />
-        </Routes>
-      </>
+        <div className='allButCreditFooter'>
+          <>
+            <NavHeader/>
+            <Routes>
+              <Route path='/' element={<Home/>} />
+            </Routes>
+          </>
+        </div>
+        <p className='credit'>Icone D20 da logo criado por Freepik - Flaticon</p>
     </div>
   );
 }
